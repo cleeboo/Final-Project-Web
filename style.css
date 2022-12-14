@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url(./img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+.border{
+    /* border:3px solid #000; */
+    border-width: 3x;
+}
+header{
+    width: 100%;
+    height: 150px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 80px;
+    background-color:lightpink;
+}
+.logo{
+    float: left;
+    margin:12px 15px;
+    padding-inline: -50px;
+    float: left;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    float: right;
+}
+nav ul a{
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 30px;
+}
+/* nav ul a:link{
+    color: #fff;
+} */
+/* nav ul a:visited{
+    color:darkmagenta;
+} */
+nav ul a:hover{
+    color: #000;
+    background-color: #fff;
+}
+nav ul a:active{
+    color: #fff;
+    background-color: #000;
+}
+nav ul a li{
+    display: inline-block;
+    margin:25px 25px;
+}
+main{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(87, 191, 207);
+    /* background-image:radial-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('/img/main.jpg'); */
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/img/main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* zoom: 150%; */
+
+}
+.heroText{
+    color: #fff;
+    height: 200px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* width: 400px; */
+}
+.heroText h2{
+    font-size: 80px;
+}
+.heroText p{
+    font-size: 22px;
+    line-height: 60px;
+}
+.heroText button{
+    padding: 5px 30px;
+    border-radius:30px;
+    border:1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    box-shadow: 2px 3px 5px rgba(255, 255, 255, 0.661) ;
+}
+.heroText button:hover{
+    border:1px solid #000 ;
+    background-color: #fff;
+    color: #000;
+}
+.heroText button:active{
+    border: 1px solid #fff;
+    background-color: rgb(3, 58, 3);
+    color: #fff;
+}
+aside{
+    width: 35%;
+    height: 680px;
+    float: right;
+    /* border: 3.3px solid #000; */
+}
+section, article{
+    width: 65%;
+    height: 340px;
+    float: left;
+    border-right:10px double #000 ;
+}
+
+footer{
+    width: 100vw;
+    height: 150px;
+    clear: both;
+}
+
+.footerCol{
+    width: 33%;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.footerCol a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 45%;
+    margin: 20px;
+}
+.aboutbg{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)), url(./img/Aboutbg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+section{
+border-right: #fff;
+border: 3px transparent;
+box-sizing:border-box;
+padding-top: 50px;
+float: left;
+height: 200px;
+width: 50%;
+}
+
+aside{
+    background-color: fff;
+    box-sizing:border-box;
+    border: 3px transparent;
+    padding-top: 50px;
+    float: right;
+    height: 700px;
+    width: 50%;}
+
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    .about{
+        width: 100%;
+        padding: 78px;
+        float: left;
+    }
+    .about img{
+        height: auto;
+        width: 400px;
+        float: left;
+        padding-right: 20px, 70px;
+    }
+    .about-txt{
+        width: 550 px;
+    }
+    .main{
+        width: 1130px;
+        max-width:95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space;
+    }
